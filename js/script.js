@@ -300,7 +300,7 @@ $('.questions__form').submit(function(event) {
 $('document').ready(function(){
     $.ajax({
         type: "GET",
-        url: '../graduate.php' ,
+        url: 'https://nikon4ik.github.io/ccs/graduate.php' ,
         success: function(data){
             if(data) {
                 let companies = JSON.parse(data).company;
